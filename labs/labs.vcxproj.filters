@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\worker">
+      <UniqueIdentifier>{c8323d10-c281-4423-a1a3-011a2b95ab4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dinamica">
+      <UniqueIdentifier>{3f1f0977-f906-47fa-844c-17e7e21c0274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basics">
+      <UniqueIdentifier>{68dab647-e04c-42e8-9583-ae0254fad57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\matrixing">
+      <UniqueIdentifier>{4f289952-c7e4-4d6d-bbbe-73a7a9af6d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sonic Generations">
+      <UniqueIdentifier>{dbb6b16c-fed2-483b-80b5-b57a86d5a23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sonic Generations\Basic Objects">
+      <UniqueIdentifier>{26e362c7-b70b-447f-bc9a-5c580081b159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shadow Generations">
+      <UniqueIdentifier>{55938ca0-f43a-40d2-a8db-4b15d9d6d31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basics\matrix">
+      <UniqueIdentifier>{5f89dcdf-c1a5-44a2-8b90-6f6882645cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basics\vectors">
+      <UniqueIdentifier>{d5c565dc-56e4-43be-994f-b888cd8b06c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2-5-6">
+      <UniqueIdentifier>{fc413df4-18b1-4b0d-b2e3-80727ee5d5ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="man.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nut.h">
+      <Filter>Header Files\worker</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSum.h">
+      <Filter>Header Files\worker</Filter>
+    </ClInclude>
+    <ClInclude Include="AmountSort.h">
+      <Filter>Header Files\worker</Filter>
+    </ClInclude>
+    <ClInclude Include="nShape.h">
+      <Filter>Header Files\dinamica</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Fillz.h">
+      <Filter>Header Files\matrixing</Filter>
+    </ClInclude>
+    <ClInclude Include="shiftup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alchemy.h">
+      <Filter>Header Files\sonic Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="OneGuy.h">
+      <Filter>Header Files\sonic Generations\Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Population.h">
+      <Filter>Header Files\sonic Generations\Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="consts.h">
+      <Filter>Header Files\sonic Generations\Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Header Files\sonic Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>Header Files\sonic Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\basics\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix_print.h">
+      <Filter>Header Files\basics\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorAvg.h">
+      <Filter>Header Files\basics\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorPrint.h">
+      <Filter>Header Files\basics\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSum.h">
+      <Filter>Header Files\basics\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomVector.h">
+      <Filter>Header Files\basics\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCompare.h">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPopulation.h">
+      <Filter>Header Files\shadow Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConsts.h">
+      <Filter>Header Files\shadow Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="StringWorld.h">
+      <Filter>Header Files\shadow Generations</Filter>
+    </ClInclude>
+    <ClInclude Include="performingAlchemy.h">
+      <Filter>Header Files\2-5-6</Filter>
+    </ClInclude>
+    <ClInclude Include="ToBinary.h">
+      <Filter>Header Files\2-5-6</Filter>
+    </ClInclude>
+    <ClInclude Include="primeNumbers.h">
+      <Filter>Header Files\2-5-6</Filter>
+    </ClInclude>
+    <ClInclude Include="bitsNPieces.h">
+      <Filter>Header Files\2-5-6</Filter>
+    </ClInclude>
+    <ClInclude Include="cStrSize.h">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

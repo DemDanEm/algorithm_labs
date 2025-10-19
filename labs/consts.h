@@ -1,0 +1,14 @@
+#pragma once
+
+#define RANGE_LEFT -512
+#define RANGE_RIGHT 511
+
+
+#define POPULATION_SIZE  20
+#define GENOME_SIZE  10
+
+#define MUTATION_POOL 1000
+#define MUTATION_CHANCE 10
+
+#define TOURNAMENT_SIZE 2
+#define TOURNAMENT_REPEATS 5
