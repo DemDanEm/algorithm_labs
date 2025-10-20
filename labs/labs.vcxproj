@@ -140,6 +140,10 @@
     <ClInclude Include="nShape.h" />
     <ClInclude Include="nut.h" />
     <ClInclude Include="OneGuy.h" />
+    <ClInclude Include="PathPoint.h" />
+    <ClInclude Include="PathPopulation.h" />
+    <ClInclude Include="PathwayConsts.h" />
+    <ClInclude Include="PathwayGuy.h" />
     <ClInclude Include="performingAlchemy.h" />
     <ClInclude Include="Population.h" />
     <ClInclude Include="primeNumbers.h" />
@@ -151,6 +155,7 @@
     <ClInclude Include="StringPopulation.h" />
     <ClInclude Include="StringWorld.h" />
     <ClInclude Include="ToBinary.h" />
+    <ClInclude Include="Vector2.h" />
     <ClInclude Include="VectorAvg.h" />
     <ClInclude Include="VectorPrint.h" />
     <ClInclude Include="VectorSum.h" />

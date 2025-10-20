@@ -43,6 +43,12 @@
     <Filter Include="Header Files\2-5-6">
       <UniqueIdentifier>{fc413df4-18b1-4b0d-b2e3-80727ee5d5ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\pathways">
+      <UniqueIdentifier>{919d1351-3d06-4833-ba52-c7f5ed2aeee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basics\vector2">
+      <UniqueIdentifier>{f3d50f5d-3a0f-49a2-8bfb-274381868045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="man.cpp">
@@ -92,9 +98,6 @@
     <ClInclude Include="WorldObject.h">
       <Filter>Header Files\sonic Generations</Filter>
     </ClInclude>
-    <ClInclude Include="Randomizer.h">
-      <Filter>Header Files\sonic Generations</Filter>
-    </ClInclude>
     <ClInclude Include="Matrix.h">
       <Filter>Header Files\basics\matrix</Filter>
     </ClInclude>
@@ -139,6 +142,24 @@
     </ClInclude>
     <ClInclude Include="cStrSize.h">
       <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="PathPopulation.h">
+      <Filter>Header Files\pathways</Filter>
+    </ClInclude>
+    <ClInclude Include="PathwayGuy.h">
+      <Filter>Header Files\pathways</Filter>
+    </ClInclude>
+    <ClInclude Include="PathwayConsts.h">
+      <Filter>Header Files\pathways</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\basics\vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="PathPoint.h">
+      <Filter>Header Files\pathways</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

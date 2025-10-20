@@ -1,7 +1,7 @@
 #pragma once
 #include <random>
 
-#include "consts.h"
+
 
 class Randomizer
 {
@@ -12,18 +12,18 @@ public:
 	Randomizer()
 	{
 		gen = std::mt19937(dev());
-		dst = std::uniform_int_distribution<>(RANGE_LEFT, RANGE_RIGHT);
+		dst = std::uniform_int_distribution<>(0, 1000); // default values
 	}
 
 
-	int get_range(int l, int r)
-	{
-		dst = std::uniform_int_distribution<>(l, r);
+	//int get_range(int l, int r)
+	//{
+	//	dst = std::uniform_int_distribution<>(l, r);
 
-		int out = dst(gen);
+	//	int out = dst(gen);
 
-		dst = std::uniform_int_distribution<>(RANGE_LEFT, RANGE_RIGHT);
-	}
+	//	dst = std::uniform_int_distribution<>(RANGE_LEFT, RANGE_RIGHT);
+	//}
 
 
 	int get_dst()
@@ -36,9 +36,9 @@ public:
 		dst = std::uniform_int_distribution<>(l, r);
 	}
 
-	void reset_dst()
-	{
-		dst = std::uniform_int_distribution<>(RANGE_LEFT, RANGE_RIGHT);
+	//void reset_dst()
+	//{
+	//	dst = std::uniform_int_distribution<>(RANGE_LEFT, RANGE_RIGHT);
 
-	}
+	//}
 };
